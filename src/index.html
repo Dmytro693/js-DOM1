@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простий Калькулятор</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+    <div class="calculator-container">
+        <h2>Мій Калькулятор</h2>
+
+        <div class="input-group">
+            <label for="num1">Число 1:</label>
+            <input type="text" id="num1" placeholder="Введіть перше число">
+        </div>
+        <div class="input-group">
+            <label for="num2">Число 2:</label>
+            <input type="text" id="num2" placeholder="Введіть друге число">
+        </div>
+
+        <div class="button-group">
+            <button id="addBtn">+</button>
+            <button id="subtractBtn">-</button>
+            <button id="multiplyBtn">*</button>
+            <button id="divideBtn">/</button>
+        </div>
+
+        <div class="result-section">
+            <h3>Результат:</h3>
+            <p id="result-output"></p>
+            <p id="error-message"></p>
+        </div>
+    </div>
+
+    <script src="/src/script.js"></script>
+</body>
+</html>
